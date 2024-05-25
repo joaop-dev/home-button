@@ -1,0 +1,20 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f96e46;
+  margin: 0;
+}
+
+.icon {
+  font-size: 5rem;
+  color: #3498db;
+  transition: transform 1s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
